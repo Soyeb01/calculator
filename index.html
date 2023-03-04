@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./style/main.css">
+</head>
+<body>
+    
+    <div class="cont">
+        <h1>Calculator</h1>
+        <div class="cal_items">
+            <input type="text" class="m1" id="answer" disabled placeholder="0">
+            <button class="plus" value="+" onclick="display('+')">+</button>
+            <button class="minus" value="-" onclick="display('-')">-</button>
+            <button class="multiply" value="*" onclick="display('*')">x</button>
+            <button class="divide" value="/" onclick="display('/')">/</button> 
+            <button class="nine" value="9" onclick="display('9')">9</button>
+            <button class="eight" value="8" onclick="display('8')">8</button>
+            <button class="seven" value="7" onclick="display('7')">7</button>
+            <button class="six" value="6" onclick="display('6')">6</button>
+            <button class="five" value="5" onclick="display('5')">5</button>
+            <button class="four" value="4" onclick="display('4')">4</button>
+            <button class="three" value="3" onclick="display('3')">3</button>
+            <button class="two" value="2" onclick="display('2')">2</button>
+            <button class="one" value="1" onclick="display('1')">1</button>
+            <button class="zero" value="0" onclick="display('0')">0</button>
+            <button class="float" value="." onclick="display('.')">.</button>        
+            <button onclick="clearMe()">C</button>
+            <button class="equal" onclick="solveMe()">=</button>
+        </div>
+        <p class="attribute pic"><a target="_blank" href="https://www.freepik.com/free-photo/image-engineering-objects-workplace-top-view-construction-concept-engineering-tools-vintage-tone-retro-filter-effect-soft-focus-selective-focus_1238631.htm#query=math&position=9&from_view=keyword">Image by mindandi</a> on Freepik</p>
+        <p class="attribute Me">Made by <a target="_blank" href="https://www.github.com/Soyeb01">Soyeb</a></p>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
